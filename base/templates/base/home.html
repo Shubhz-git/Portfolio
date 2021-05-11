@@ -1,0 +1,106 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shubham Patil</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/photo.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Shubham!</h4>
+					<p><b>Software Engineer</b></p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Summary</h4>
+					<hr>
+					<p>To utilize my personal and professional qualitiesin a multi-national organization which gives me opportunities to demonstrate my competency and allow me a steadily paced rate of professional growth and development.</p>
+
+					<h4>Skills</h4>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript, React, SQL, UiPath and APIs ;)</p>
+					<p>PS: Working on Mongo DB and Machine Learning.</p>
+
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Software Engineer</h5>
+					<hr>
+					<p><b>Associate Software Engineer at Tech Mahindra</b></p>
+					<p>Performed builds in Development and testing environments with scripts which are used to generate build packages for Development Environments.</p>
+					<p>Using Django have built SRF(Siebel repository file) replacement and OIS ( Order Investigation tool ) that replaces the main SRF files and checks the 90% of failure occurred in which components during the journey.</p>	
+					<p>Built an automated page for Monitoring the resources, CPU, memory, I/O, and paging space for Health check of multiple environments. Worked with Jira tool that handles DCR (defect Change Request) MR (Maintenance Request).</p>
+					<p>Create and manage automated deployments across various environments which reduced 50% of manual work</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Projects</h5>
+					<hr>
+					<p><b>To Detect Fake Identities of Bot vs. Humans Using Machine Learning</b></p>
+					<p>Built an web app to allow usersto simulate the number of accounts by classifying through the number of attributes for comparing bot and Human accounts.</p>
+					<p>Utilized sci-kit learn in Python to simulate possible outcomes under different scenarios that the user choise</p>
+					<p>Used: Twitter API, Python, SQL, HTML/CSS, MySQL.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Education</h5>
+				<hr>
+				<p><b>Bachelor of Engineering in Computer Science : </b></p>
+				<p>KJ Trinity Academy of
+					Engineering |
+					July 2016 - May 2019.</p>
+				<p><b>Diploma In Computer Engineering : </b></p>
+				<p>Dr. D. Y. Patil Polytechnic | June 2013 - April 2016</p>
+				<p><b>The Central Board of Secondary Education : </b></p>
+				<p>
+					10th - Kolhapur Public School | March 2012 - May 2013
+				</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
